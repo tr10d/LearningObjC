@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		854801B126899CB7004D77DD /* Lesson4.m in Sources */ = {isa = PBXBuildFile; fileRef = 854801B026899CB7004D77DD /* Lesson4.m */; };
+		854801B526899E9E004D77DD /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 854801B426899E9E004D77DD /* Student.m */; };
 		854EED59267D188B00C4EC37 /* Lesson3.m in Sources */ = {isa = PBXBuildFile; fileRef = 854EED58267D188B00C4EC37 /* Lesson3.m */; };
 		854EED5D267D191900C4EC37 /* Lesson1.m in Sources */ = {isa = PBXBuildFile; fileRef = 854EED5C267D191900C4EC37 /* Lesson1.m */; };
 		854EED62267D195300C4EC37 /* Lesson2.m in Sources */ = {isa = PBXBuildFile; fileRef = 854EED61267D195300C4EC37 /* Lesson2.m */; };
@@ -26,6 +28,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		854801AF26899CB7004D77DD /* Lesson4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson4.h; sourceTree = "<group>"; };
+		854801B026899CB7004D77DD /* Lesson4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson4.m; sourceTree = "<group>"; };
+		854801B326899E9E004D77DD /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		854801B426899E9E004D77DD /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		854EED57267D188B00C4EC37 /* Lesson3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson3.h; sourceTree = "<group>"; };
 		854EED58267D188B00C4EC37 /* Lesson3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson3.m; sourceTree = "<group>"; };
 		854EED5B267D191900C4EC37 /* Lesson1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson1.h; sourceTree = "<group>"; };
@@ -47,6 +53,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		854801B226899D4A004D77DD /* Lesson4 */ = {
+			isa = PBXGroup;
+			children = (
+				854801AF26899CB7004D77DD /* Lesson4.h */,
+				854801B026899CB7004D77DD /* Lesson4.m */,
+				854801B326899E9E004D77DD /* Student.h */,
+				854801B426899E9E004D77DD /* Student.m */,
+			);
+			path = Lesson4;
+			sourceTree = "<group>";
+		};
 		854EED5A267D189E00C4EC37 /* Lesson3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +114,7 @@
 				854EED5E267D192600C4EC37 /* Lesson1 */,
 				854EED5F267D195300C4EC37 /* Lesson2 */,
 				854EED5A267D189E00C4EC37 /* Lesson3 */,
+				854801B226899D4A004D77DD /* Lesson4 */,
 			);
 			path = LearningObjC;
 			sourceTree = "<group>";
@@ -159,8 +177,10 @@
 			files = (
 				854EED5D267D191900C4EC37 /* Lesson1.m in Sources */,
 				856136E2267A76CC00C27651 /* main.m in Sources */,
+				854801B126899CB7004D77DD /* Lesson4.m in Sources */,
 				854EED62267D195300C4EC37 /* Lesson2.m in Sources */,
 				854EED59267D188B00C4EC37 /* Lesson3.m in Sources */,
+				854801B526899E9E004D77DD /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
